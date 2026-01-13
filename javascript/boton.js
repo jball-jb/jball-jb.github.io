@@ -5,12 +5,12 @@ function copiarCodigo() {
     // 2. Intentamos copiar
     navigator.clipboard.writeText(codigo).then(() => {
         const btn = document.querySelector('.boton-copiar');
-        btn.innerText = '¡Copiado!';
+        btn.innerText = 'copiado!';
         setTimeout(() => {
-            btn.innerText = 'Copiar código';
+            btn.innerText = 'Copiar codigo';
         }, 2000);
     }).catch(err => {
         console.error('Error al copiar: ', err);
-        alert("Para que el botón funcione, abre el VS Code con 'Live Server'");
+        alert("Para que el boton funcione, abre el VS Code con 'Live Server'");
     });
 }
