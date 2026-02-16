@@ -31,4 +31,12 @@ span {
 } 
 
 
+.indice {
+    width: 95%;
+    height: 50px;
+    background-color:orange ;
+}
 
+.indice ul {
+    list-style-type: none;
+}
