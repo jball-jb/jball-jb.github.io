@@ -36,7 +36,7 @@ span {
     height: 50px;
     background-color:rgb(247, 143, 6) ;
     margin: 0 auto;
-    display: inline-block;
+    display: inline-flex;
 }
 
 .indice ul {
@@ -47,6 +47,6 @@ span {
 
 .indice a:hover {
     background-color: cornflowerblue;
-    padding: 15px;
+    padding: 5px;
     border-radius: 10px;
 }
