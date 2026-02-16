@@ -36,13 +36,13 @@ span {
     height: 50px;
     background-color:rgb(247, 143, 6) ;
     margin: 0 auto;
+    display: inline-block;
 }
 
 .indice ul {
     list-style-type: none;
     text-align: center;
     padding-top: 5px;
-    display: inline-block;
 }
 
 .indice a:hover {
