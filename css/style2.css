@@ -36,13 +36,13 @@ span {
     height: 75px;
     background-color:rgb(247, 143, 6) ;
     margin: 0 auto;
-    
+    text-align: center;
 }
 
 .indice ul {
     list-style-type: none;
-    text-align: center;
-    padding-top: 5px;
+    padding-top: 10px;
+    padding-left: 5px;
     display: inline-flex;
 }
 
