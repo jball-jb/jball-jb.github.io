@@ -34,9 +34,15 @@ span {
 .indice {
     width: 95%;
     height: 50px;
-    background-color:orange ;
+    background-color:rgb(247, 143, 6) ;
 }
 
 .indice ul {
     list-style-type: none;
+    text-align: center;
+    padding-top: auto;
+}
+
+.indice a:hover {
+    background-color: cornflowerblue;
 }
