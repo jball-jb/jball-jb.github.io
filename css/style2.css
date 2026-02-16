@@ -40,7 +40,7 @@ span {
 .indice ul {
     list-style-type: none;
     text-align: center;
-    padding-top: auto;
+    padding-top: 15px;
 }
 
 .indice a:hover {
