@@ -31,7 +31,7 @@ span {
 } 
 
 
-.indice {
+nav {
     width: 95%;
     height: 75px;
     background-color:rgb(250, 139, 65) ;
@@ -40,14 +40,14 @@ span {
     border-radius: 10px;
 }
 
-.indice ul {
+nav ul {
     list-style-type: none;
     margin-top: 0 auto;
     margin-left: 5px;
     display: inline-flex;
 }
 
-.indice a:hover {
+nav a:hover {
     background-color: cornflowerblue;
     padding: 5px;
     border-radius: 10px;
