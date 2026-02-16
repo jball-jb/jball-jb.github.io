@@ -35,12 +35,13 @@ span {
     width: 95%;
     height: 50px;
     background-color:rgb(247, 143, 6) ;
+    margin: 0 auto;
 }
 
 .indice ul {
     list-style-type: none;
     text-align: center;
-    padding-top: 15px;
+    padding-top: 5px;
 }
 
 .indice a:hover {
