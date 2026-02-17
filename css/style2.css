@@ -43,6 +43,7 @@ span {
 .indice ul {
     list-style-type: none;
     margin: auto;
+    margin-top: 25px;
     display: inline-flex;
     text-align: center;
 }
