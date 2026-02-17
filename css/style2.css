@@ -45,12 +45,13 @@ span {
     margin-top: 27px;
     margin-right: 5.5%; 
     display: inline-flex;
-    color: coral;
+    
 }
 
 .indice a {
     margin-left: 20px;
     text-shadow: 6px 5px 16px #286FCE;
+    color: rgb(60, 199, 241);
 }
 
 .indice a:hover {
