@@ -56,7 +56,7 @@ span {
 }
 
 .indice a:hover {
-    background-color: cornflowerblue;
+    background-color: rgb(70, 219, 32);
     padding: 5px;
     border-radius: 10px;
 }
