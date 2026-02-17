@@ -44,7 +44,7 @@ span {
     list-style-type: none;
     margin: auto;
     margin-top: 25px;
-    scroll-margin-right: 53%;
+    margin-right: 53%;
     display: inline-flex;
     text-align: center;
 }
