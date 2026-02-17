@@ -5,7 +5,8 @@ body {
 }
 
 h1 {
-   font-size: 40px;
+   font-size: clamp(38px, 7vw, 95px);
+   line-height: 1.1;
    text-align: center;
    color: rgb(0, 132, 255);
    font-family: "press start 2p";
