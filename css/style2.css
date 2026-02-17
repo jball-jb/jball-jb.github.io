@@ -52,11 +52,13 @@ span {
     margin-left: 20px;
     text-shadow: 6px 5px 16px #286FCE;
     color: #2563EB;
+    padding: 10px;
+
 
 }
 
 .indice a:hover {
     background-color: #00D26A;
-    padding: 5px;
+    padding: 10px;
     border-radius: 10px;
 }
