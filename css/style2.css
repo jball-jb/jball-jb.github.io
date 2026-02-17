@@ -57,6 +57,6 @@ span {
 
 .indice a:hover {
     background-color: #00D26A;
-    padding: 5px;
+    margin: 5px;
     border-radius: 10px;
 }
