@@ -47,6 +47,10 @@ span {
     display: inline-flex;
 }
 
+.indice a {
+    margin-left: 5px;
+}
+
 .indice a:hover {
     background-color: cornflowerblue;
     padding: 5px;
