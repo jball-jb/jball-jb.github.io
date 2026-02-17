@@ -42,7 +42,7 @@ span {
 
 .indice ul {
     list-style-type: none;
-    margin: 0 auto;
+    margin: auto;
     display: inline-flex;
     text-align: center;
 }
