@@ -51,7 +51,8 @@ span {
 .indice a {
     margin-left: 20px;
     text-shadow: 6px 5px 16px #286FCE;
-    color: rgb(60, 199, 241);
+    color: rgb(0, 132, 255);
+
 }
 
 .indice a:hover {
