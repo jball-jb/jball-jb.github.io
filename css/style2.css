@@ -100,7 +100,11 @@ span {
 
 .submenu > li > a {
     padding: 10px 20px;
-    color: #ffffff;
+    color: #2563EB;
     text-decoration: none;
+    display: block;
+}
+
+.menu > li:hover .submenu {
     display: block;
 }
