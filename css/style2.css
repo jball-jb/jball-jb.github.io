@@ -83,15 +83,17 @@ span {
 }
 
 .submenu {
-    display: none;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    list-style: none;
-    background-color: #00D26A;
-    padding: 0;
-    margin: 0;
-    z-index: 1000;
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+
+  list-style: none;
+  background: #FF7A00;
+  padding: 0;
+  margin: 0;
+
+  border-radius: 10px;
 }
 
 .submenu > li > a {
@@ -101,8 +103,20 @@ span {
     display: block;
 }
 
+.submenu li a {
+  display: block;
+  padding: 10px 20px;
+  color: #2563EB;
+}
+
 .menu > li:hover .submenu {
-    display: block;
+  display: block;
+}
+
+.menu li a:hover,
+.submenu li a:hover {
+  background: #22C55E;
+  color: white;
 }
 
 .submenu > li:hover > a {
