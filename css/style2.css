@@ -58,11 +58,7 @@ span {
 
 }
 
-.indice a:hover {
-    background-color: #00D26A;
-    padding: 10px;
-    border-radius: 15px;
-}
+
 
 .menu {
     list-style: none;
@@ -107,4 +103,8 @@ span {
 
 .menu > li:hover .submenu {
     display: block;
+}
+
+.submenu > li:hover > a {
+    background-color: #00D26A;
 }
