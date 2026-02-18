@@ -71,6 +71,10 @@ span {
     display: flex;
 }
 
+.menu > li {
+    position: relative;
+}
+
 .submenu {
     display: none;
     position: absolute;
