@@ -82,7 +82,9 @@ span {
     text-decoration: none;
 }
 
-
+.menu > li:hover > a {
+    background-color: #444;
+}
 
 .submenu {
     display: none;
