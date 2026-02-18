@@ -75,6 +75,13 @@ span {
     position: relative;
 }
 
+.menu > li > a {
+    display: block;
+    padding: 15px 20px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
 .submenu {
     display: none;
     position: absolute;
