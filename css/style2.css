@@ -53,6 +53,10 @@ span {
     position: relative;
 }
 
+.indice ul li:hover .submenu {
+    display: block;
+}
+
 .indice a {
     gap: 21px;
     text-shadow: 6px 5px 16px #286FCE;
