@@ -49,6 +49,10 @@ span {
     
 }
 
+.indice ul li {
+    position: relative;
+}
+
 .indice a {
     gap: 21px;
     text-shadow: 6px 5px 16px #286FCE;
