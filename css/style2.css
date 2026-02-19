@@ -51,6 +51,7 @@ span {
 
 .indice ul li {
     position: relative;
+    display: block;
 }
 
 .indice ul li:hover .submenu {
