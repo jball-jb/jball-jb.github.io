@@ -87,7 +87,7 @@ span {
   position: absolute;
   top: 100%;
   left: 0;
-
+  z-index: 1000;
   list-style: none;
   background: #FF7A00;
   padding: 0;
