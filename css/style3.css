@@ -13,4 +13,6 @@ div {
 div ul {
    list-style-type: none;
    display: inline-flex; 
+   text-align: center;
+   padding-left: 5px;
 }
