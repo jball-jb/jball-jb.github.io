@@ -2,3 +2,9 @@ body {
     background-color: #cadc43;
 }
 
+div {
+    background-color: cornflowerblue;
+    height: 100px;
+    width: 90%;
+    
+}
