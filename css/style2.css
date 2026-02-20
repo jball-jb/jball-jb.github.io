@@ -68,7 +68,7 @@ span {
     display: block;
 }
 
-.indice ul:hover{
+.indice a:hover{
     background-color: #22C55E;
 }
 
@@ -100,7 +100,7 @@ span {
     text-align: left;
 }
 
-.submenu li ul:hover {
+.submenu li a:hover {
     background-color: #22C55E;
     color: white;
 }
