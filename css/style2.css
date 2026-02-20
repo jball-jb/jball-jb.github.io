@@ -32,102 +32,71 @@ span {
 } 
 
 
+/* 1. EL CONTENEDOR PRINCIPAL */
 .indice {
     width: 95%;
-    height: 75px;
-    background-color:#FF7A00;
+    min-height: 75px; /* Usamos min-height para que pueda crecer si es necesario */
+    background-color: #FF7A00;
     margin: 0 auto;
     text-align: center;
     border-radius: 10px;
+    position: relative; /* Importante para el contexto */
 }
 
-.indice ul {
+/* 2. LA LISTA PRINCIPAL (Eliminamos el margin-top excesivo) */
+.indice ul.menu {
     list-style-type: none;
-    margin-top: 27px;
-    margin-right: 5.5%; 
-    display: inline-flex;
-    
+    padding: 0;
+    margin: 0;
+    display: inline-flex; 
+    align-items: center;
+    height: 75px; /* Centramos los items verticalmente en la barra */
 }
 
+/* 3. LOS ELEMENTOS DE LISTA (El ancla del dropdown) */
 .indice ul li {
-    position: relative;
+    position: relative; /* VITAL: El submenú se alineará respecto a este li */
     display: block;
 }
 
+/* 4. EL ENLACE PRINCIPAL */
+.indice a {
+    text-shadow: 2px 2px 8px #286FCE; /* Suavizado para que sea legible */
+    color: #2563EB;
+    padding: 15px 20px;
+    text-decoration: none;
+    display: block;
+}
+
+/* 5. EL SUBMENÚ (CORREGIDO) */
+.submenu {
+    display: none;
+    position: absolute;
+    top: 100%; /* Aparece justo donde termina el LI */
+    left: 0;
+    z-index: 1000;
+    list-style: none;
+    background: #FF7A00; /* Mismo color que la barra para que combine */
+    padding: 0;
+    margin: 0;
+    border-radius: 0 0 10px 10px; /* Redondeamos solo abajo */
+    min-width: 180px; /* Para que no se vea apretado */
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.2); /* Sombra para que se note que flota */
+}
+
+/* 6. EL HOVER (Activación) */
 .indice ul li:hover .submenu {
     display: block;
 }
 
-.indice a {
-    gap: 21px;
-    text-shadow: 6px 5px 16px #286FCE;
-    color: #2563EB;
-    padding: 10px;
-
-
-}
-
-
-
-.menu {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-}
-
-.menu > li {
-    position: relative;
-}
-
-.menu > li > a {
-    display: block;
-    padding: 15px 20px;
-    color: #2563EB;
-    text-decoration: none;
-}
-
-.menu > li:hover > a {
-    background-color: #00D26A;
-}
-
-.submenu {
-  display: none;
-  position: absolute;
-  top: 100%;
-  left: 0;
-  z-index: 1000;
-  list-style: none;
-  background: #FF7A00;
-  padding: 0;
-  margin: 0;
-
-  border-radius: 10px;
-}
-
-.submenu > li > a {
-    padding: 10px 20px;
-    color: #2563EB;
-    text-decoration: none;
-    display: block;
-}
-
+/* Estilos de los links dentro del submenú */
 .submenu li a {
-  display: block;
-  padding: 10px 20px;
-  color: #2563EB;
+    color: white; /* Cambié a blanco para que resalte más en el naranja */
+    padding: 12px 15px;
+    text-align: left;
 }
 
-.menu > li:hover .submenu {
-  display: block;
-}
-
-.menu li a:hover,
 .submenu li a:hover {
-  background: #22C55E;
-  color: white;
-}
-
-.submenu > li:hover > a {
-    background-color: #00D26A;
+    background-color: #22C55E;
+    color: white;
 }
