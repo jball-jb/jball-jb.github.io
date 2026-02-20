@@ -6,5 +6,11 @@ div {
     background-color: cornflowerblue;
     height: 100px;
     width: 90%;
-    
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+div ul {
+   list-style-type: none;
+   display: inline-flex; 
 }
