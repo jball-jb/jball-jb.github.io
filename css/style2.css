@@ -62,14 +62,14 @@ span {
 /* 4. EL ENLACE PRINCIPAL */
 .indice a {
     text-shadow: 2px 2px 8px #286FCE; /* Suavizado para que sea legible */
-    color: #2563EB;
+    color: white;
     padding: 15px 20px;
     text-decoration: none;
     display: block;
 }
 
 .indice a:hover{
-    background-color: #22C55E;
+    color: #2563EB;
 }
 
 /* 5. EL SUBMENÚ (CORREGIDO) */
@@ -101,6 +101,5 @@ span {
 }
 
 .submenu li a:hover {
-    background-color: #22C55E;
     color: #2563EB;
 }
