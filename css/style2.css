@@ -34,10 +34,9 @@ span {
 
 /* 1. EL CONTENEDOR PRINCIPAL */
 .indice {
-    position: sticky;
     width: 95%;
     min-height: 75px; /* Usamos min-height para que pueda crecer si es necesario */
-    background-color: rgb(255, 255, 255, 0.95);
+    background-color: rgb(255, 122, 0, 0.8);
     backdrop-filter: blur(10px);
     margin: 0 auto;
     text-align: center;
