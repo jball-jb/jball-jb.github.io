@@ -14,10 +14,11 @@
 }
 
 .box {
-  background-color: cornflowerblue;
+  background-color: rgb(100, 149, 237,);
   width: 1100px;
+  backdrop-filter: blur(100px);
   border-radius: 10px;
-  margin-left: 10px;
+  margin-left: 10px;    
 
 }
 .imagen {
@@ -75,7 +76,8 @@
 }
 
 .box {
-    background-color: #4a90e2; /* Tu azul original */
+    background-color: rgb(74, 144, 226, 0.7); /* Tu azul original */
+    backdrop-filter: blur(100px);
     padding: 20px;
     color: #ffcc00;
 }
@@ -108,6 +110,6 @@
 
 /* Opcional: Color diferente para tus comentarios */
 .comentario {
-    color: #3e5c5c; /* Un azul más clarito para que resalte menos que las etiquetas */
+    color: #E9ECEF; /* Un azul más clarito para que resalte menos que las etiquetas */
     font-style: italic;
 }
