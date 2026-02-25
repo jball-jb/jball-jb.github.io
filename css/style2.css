@@ -20,15 +20,18 @@ h1 {
 .tarjeta-html {
     background-color: rgb(255, 255, 255, 0.3);
     backdrop-filter: blur(100px);
-    width: 500px;
-    height: 80px;
+    width: 65%;
+    height: 75px;
+    margin-top: 5% ;
     padding-left: 10px;
     margin-left: 2.4%;
     border-radius: 10px;
+    font-size: clamp(8px ,5vw, 16px)
 }
 
 .tarjeta-html h2{
     padding-top: 5px;
+    
 }
 
 .tarjeta-html p {
