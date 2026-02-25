@@ -26,16 +26,18 @@ h1 {
     padding-left: 10px;
     margin-left: 2.4%;
     border-radius: 10px;
-    font-size: clamp(8px ,5vw, 16px)
 }
 
 .tarjeta-html h2{
     padding-top: 5px;
+    font-size: clamp(8px ,5vw, 16px)
     
 }
 
 .tarjeta-html p {
     color: #E9ECEF;
+    font-size: clamp(8px ,5vw, 16px)
+
 }
 
 a{
