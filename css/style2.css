@@ -26,6 +26,8 @@ h1 {
     padding-left: 10px;
     margin-left: 2.4%;
     border-radius: 10px;
+    box-shadow: 0px 0px 23px 12px rgba(97,103,96,0.8);
+
 }
 @media (max-width: 768px){
     .tarjeta-html{
@@ -79,6 +81,7 @@ span {
     text-align: center;
     border-radius: 10px;
     position: relative; /* Importante para el contexto */
+    box-shadow: 0px 0px 23px 12px rgba(97,103,96,0.8);
 }
 
 /* 2. LA LISTA PRINCIPAL (Eliminamos el margin-top excesivo) */
@@ -107,7 +110,7 @@ span {
 }
 
 .indice a:hover{
-    color: #2563EB;
+    color: #ff5100;
 }
 
 /* 5. EL SUBMENÚ (CORREGIDO) */
@@ -139,5 +142,5 @@ span {
 }
 
 .submenu li a:hover {
-    color: #2563EB;
+    color: #ff5100;
 }
