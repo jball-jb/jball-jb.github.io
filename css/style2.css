@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans+Hebrew:wght@100..800&display=swap');
 
 body {
     background-image: url('https://images.pexels.com/photos/18541705/pexels-photo-18541705.jpeg');
@@ -17,20 +18,34 @@ h1 {
 
 }
 
+#Estructura-Codigo {
+    margin-left: 14%;
+}
+
+@media (max-width: 1450px) {
+    #Estructura-Codigo {
+        margin-left: 10px;
+
+    }
+
+}
+
+
+
 .tarjeta-html {
     background-color: rgb(255, 255, 255, 0.3);
     backdrop-filter: blur(100px);
     width: 470px;
     min-height: 75px;
     margin-top: 2%;
-    padding-left: 10px;
-    
     padding: 0 5px 2px 10px;
     margin-left: 2.4%;
     border-radius: 10px;
     box-shadow: 0px 0px 23px 12px rgba(97,103,96,0.8);
+    font-family: 'Playpen Sans Hebrew';
 
 }
+
 @media (max-width: 768px){
     .tarjeta-html{
         width: 65%;
@@ -84,6 +99,7 @@ span {
     border-radius: 10px;
     position: relative; /* Importante para el contexto */
     box-shadow: 0px 0px 23px 12px rgba(97,103,96,0.8);
+    font-family: 'Playpen Sans Hebrew';
 }
 
 /* 2. LA LISTA PRINCIPAL (Eliminamos el margin-top excesivo) */
