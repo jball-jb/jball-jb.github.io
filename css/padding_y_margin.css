@@ -39,12 +39,20 @@
 
 /* Centra la ventana y le da sombra */
 .ventana-editor {
-    max-width: 1100px; /* Ancho máximo para que no se estire demasiado */
-    margin: 10px auto; /* Centrado horizontal automático */
+    max-width: 500px; /* Ancho máximo para que no se estire demasiado */
+    margin-left: 14%; /* Centrado horizontal automático */
     border-radius: 10px;
     overflow: hidden; /* Corta las esquinas del azul para que encajen */
     box-shadow: 0 15px 35px rgba(0,0,0,0.4);
 }
+
+@media (max-width: 1450px) {
+    .ventana-editor {
+        margin-left: 10px;
+        margin-bottom: 30px;
+    }
+}
+
 
 /* Estilo de la barra gris */
 .barra-superior {
@@ -62,13 +70,26 @@
 .boton-copiar {
     background-color: #555 ;
     color: white;
-    margin-left: 770px;
+    margin-left: 180px;
     border: none;
     padding: 9px 35px;
     border-radius: 10px;
     font-size: 11px;
     cursor: pointer;
     transition: background 0.3s;
+}
+@media (max-width: 416px) {
+    .boton-copiar {
+    background-color: #555 ;
+    color: white;
+    margin-left: 120px;
+    border: none;
+    padding: 9px 35px;
+    border-radius: 10px;
+    font-size: 11px;
+    cursor: pointer;
+    transition: background 0.3s;
+    }
 }
 
 .boton-copiar:hover {
