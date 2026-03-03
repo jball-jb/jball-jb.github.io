@@ -62,7 +62,7 @@ h1 {
 @media (max-width: 768px){
     .tarjeta-html{
         width: 65%;
-        margin-top: 40px;
+        margin-top: 55px;
         padding: 2px 20px 4px 15px ;
     }
 }
